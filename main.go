@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/rozha/packer-post-processor-ovftool/ovftool"
-	"github.com/mitchellh/packer/packer/plugin"
+	"github.com/hashicorp/packer/packer/plugin"
 )
 
 func main() {

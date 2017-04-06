@@ -51,6 +51,6 @@ If you want to use the plugin with Packer v0.4, you'll need to build for API
 version 1. Perform installation as above (you can skip the "go install" step), then:
 
     $ cd $GOPATH/src/github.com/iancmcc/packer-post-processor-ovftool && git checkout v0.4.1
-    $ cd $GOPATH/src/github.com/mitchellh/packer && git checkout v0.4.1
+    $ cd $GOPATH/src/github.com/hashicorp/packer && git checkout v0.4.1
     $ go install github.com/iancmcc/packer-post-processor-ovftool
 
